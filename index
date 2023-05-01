@@ -3,7 +3,7 @@
   <head>
     <base target="_top">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="google-signin-client_id" content="712871956261-l85reugeijrjs9donqeh4j6dboev17up.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="528334269442-klcc1s42t7tpoa2ao6ej76n06vf6q24j.apps.googleusercontent.com">
     <style>
       html {
         /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -36,8 +36,8 @@
   <body>
     <h3>Welcome to the Oholei Torah HR Portal! Please sign in using your Google email address</h3>
     <div id="g_id_onload"
-      data-client_id="712871956261-l85reugeijrjs9donqeh4j6dboev17up"
-      data-login_uri="https://oholeitorah.github.io/"
+      data-client_id="528334269442-klcc1s42t7tpoa2ao6ej76n06vf6q24j.apps.googleusercontent.com"
+      data-login_uri="https://central-registration.github.io"
       data-auto_select="true"
       data-auto_prompt="false">
     </div>
@@ -54,7 +54,7 @@
       
       window.onload = function () {
         google.accounts.id.initialize({
-          client_id: "712871956261-l85reugeijrjs9donqeh4j6dboev17up",
+          client_id: "528334269442-klcc1s42t7tpoa2ao6ej76n06vf6q24j",
           callback: handleCredentialResponse
         });
         google.accounts.id.renderButton(
